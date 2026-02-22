@@ -1,11 +1,24 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# EASY MEETING - AI Meeting Assistant
 
-  <h1>Built with AI Studio</h2>
+Este é um assistente de reuniões inteligente estilo PWA que grava, resume e gera insights de reuniões no Meet, Zoom e Teams.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 🚀 Como fazer o Deploy
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1. **GitHub:** Suba todos os arquivos para um novo repositório.
+2. **Vercel:**
+   - Conecte seu repositório.
+   - Nas **Environment Variables**, adicione:
+     - `API_KEY`: Sua chave da API do Google Gemini (obtenha em [ai.google.dev](https://ai.google.dev)).
+3. **Google Agenda:**
+   - Para que a integração com o calendário funcione em produção, você deve ir ao [Google Cloud Console](https://console.cloud.google.com/), criar um projeto e configurar o **OAuth 2.0 Client ID** com a origem autorizada do seu domínio da Vercel.
 
-</div>
+## ✨ Funcionalidades
+- Gravação de Tela e Áudio (Meet, Zoom, Teams).
+- Resumos automáticos com Gemini 3 Flash.
+- Chat com IA para perguntas pós-reunião.
+- Estrategista em Tempo Real.
+- PWA Instalável.
+- Armazenamento Local Seguro (IndexedDB).
+
+Desenvolvido com 💚 por EASY BYZ CREATOR.

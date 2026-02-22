@@ -1,0 +1,9 @@
+{
+  "name": "https://easybyzcreator-easymeeting.vercel.app/",
+  "description": "Assistente de reuniões com IA para gravar, transcrever e resumir reuniões do Meet, Zoom e Teams.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "display-capture"
+  ]
+}

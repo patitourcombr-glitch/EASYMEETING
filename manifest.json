@@ -1,0 +1,22 @@
+
+{
+  "name": "EASY MEETING",
+  "short_name": "EasyMeet",
+  "description": "IA para gravar e resumir suas reuniões",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A1E29",
+  "theme_color": "#00E6A8",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/gLmX13qF/patitour-2026-01-28-T100659-889.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/gLmX13qF/patitour-2026-01-28-T100659-889.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
